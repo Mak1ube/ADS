@@ -11,9 +11,11 @@ public class Task1 {
     }
 
     public static void printSmall(int[] arr) {
+        //Предположим что первый элемент самый маленький
         int small = arr[0];
+        //Проверка каждого элемента
         for (int i = 0; i < arr.length; i++) {
-            if (small > arr[i]) {
+            if (small > arr[i]) { 
                 small = arr[i];
             }
         }
