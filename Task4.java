@@ -9,7 +9,9 @@ public class Task4 {
     }
 
     public static int Factorial(int n){
+        // Base case :)
         if (n <= 1) return 1;
+        // Recursive one
         return Factorial(n -1) * n;
     }
 }
