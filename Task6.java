@@ -10,9 +10,11 @@ public class Task6 {
     }
 
     public static int exponential(int n, int m) {
+        // Base case
         if (m == 0){
             return 1;
         }
+        // ReCuRsIvE CaLl
         return n * exponential(n, m - 1);
     }
 }
