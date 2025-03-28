@@ -9,8 +9,8 @@ public class Task5 {
     }
 
     public static int Fibonacci(int n) {
-        if (n == 1 || n == 2) {
-            return 1;
+        if (n <= 1) {
+            return n;
         }
         return Fibonacci(n - 1) + Fibonacci(n - 2);
     }
