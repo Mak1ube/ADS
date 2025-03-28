@@ -16,6 +16,7 @@ public class Task3 {
         if (n <= 1) {
             return false;
         }
+        // Проверяем есть ли делитиль для введенного числа
         for (int i = 2; i < n; i++) {
             if (n % i == 0) {
                 return false;
